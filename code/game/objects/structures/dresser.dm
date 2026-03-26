@@ -56,6 +56,10 @@
 			var/new_socks = tgui_input_list(user, "Select your socks", "Changing", SSaccessories.socks_list)
 			if(new_socks)
 				dressing_human.socks = new_socks
+		if("Socks Color")
+			var/new_socks_color = tgui_color_picker(dressing_human, "Choose your socks color", "Socks Color", dressing_human.socks_color)
+			if(new_socks_color)
+				dressing_human.socks_color = sanitize_hexcolor(new_socks_color)
 
 	add_fingerprint(dressing_human)
 	dressing_human.update_body()

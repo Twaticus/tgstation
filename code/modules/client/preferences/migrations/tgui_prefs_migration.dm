@@ -69,6 +69,7 @@
 		"random_undershirt" = "undershirt",
 		"random_underwear" = "underwear",
 		"random_underwear_color" = "underwear_color",
+		"random_socks_color" = "socks_color"
 	)
 
 	var/static/list/random_antag_settings = list(

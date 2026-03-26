@@ -702,6 +702,15 @@
 	json_config = 'code/datums/greyscale/json_configs/digitigrade_underwear.json'
 
 //
+// UNDERWEAR
+//
+
+/datum/greyscale_config/socks
+	name = "Socks"
+	icon_file = 'icons/mob/clothing/underwear.dmi'
+	json_config = 'code/datums/greyscale/json_configs/socks.json'
+
+//
 // SUIT + HEAD
 // (Specifically for toggleable suits with hats, i.e. winter coats)
 //

@@ -246,6 +246,7 @@
 	destination.underwear_color = underwear_color
 	destination.undershirt = undershirt
 	destination.socks = socks
+	destination.socks_color = socks_color
 	destination.jumpsuit_style = jumpsuit_style
 
 

@@ -1,0 +1,106 @@
+{
+	"socks_ankle": [
+		{
+			"type": "icon_state",
+			"icon_state": "socks_ankle",
+			"blend_mode": "overlay",
+			"color_ids": [ 1 ]
+		}
+	],
+	"socks_crew": [
+		{
+			"type": "icon_state",
+			"icon_state": "socks_crew",
+			"blend_mode": "overlay",
+			"color_ids": [ 1 ]
+		}
+	],
+	"socks_knee": [
+		{
+			"type": "icon_state",
+			"icon_state": "socks_knee",
+			"blend_mode": "overlay",
+			"color_ids": [ 1 ]
+		}
+	],
+	"socks_thigh": [
+		{
+			"type": "icon_state",
+			"icon_state": "socks_thigh",
+			"blend_mode": "overlay",
+			"color_ids": [ 1 ]
+		}
+	],
+	"thocks": [
+		{
+			"type": "icon_state",
+			"icon_state": "thocks",
+			"blend_mode": "overlay",
+			"color_ids": [ 1 ]
+		}
+	],
+	"sheer_knee": [
+		{
+			"type": "icon_state",
+			"icon_state": "sheer_knee",
+			"blend_mode": "overlay",
+			"color_ids": [ 1 ]
+		}
+	],
+	"sheer_thigh": [
+		{
+			"type": "icon_state",
+			"icon_state": "sheer_thigh",
+			"blend_mode": "overlay",
+			"color_ids": [ 1 ]
+		}
+	],
+	"sheer_pantyhoes": [
+		{
+			"type": "icon_state",
+			"icon_state": "sheer_pantyhoes",
+			"blend_mode": "overlay",
+			"color_ids": [ 1 ]
+		}
+	],
+	"stripe_knee": [
+		{
+			"type": "icon_state",
+			"icon_state": "socks_knee",
+			"blend_mode": "overlay",
+			"color_ids": [ 1 ]
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "socks_knee_stripe1",
+			"blend_mode": "overlay",
+			"color_ids": [ 2 ]
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "socks_knee_stripe2",
+			"blend_mode": "overlay",
+			"color_ids": [ 3 ]
+		}
+	],
+	"stripe_thigh": [
+		{
+			"type": "icon_state",
+			"icon_state": "socks_thigh",
+			"blend_mode": "overlay",
+			"color_ids": [ 1 ]
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "socks_thigh_stripe1",
+			"blend_mode": "overlay",
+			"color_ids": [ 2 ]
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "socks_thigh_stripe2",
+			"blend_mode": "overlay",
+			"color_ids": [ 3 ]
+		}
+	]
+}

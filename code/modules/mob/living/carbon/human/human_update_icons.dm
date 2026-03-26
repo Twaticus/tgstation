@@ -885,7 +885,7 @@ generate/load female uniform sprites matching all previously decided variables
 
 	if(socks && num_legs >= 2 && !(bodyshape & BODYSHAPE_DIGITIGRADE))
 		var/datum/sprite_accessory/clothing/socks/sock_accessory = SSaccessories.socks_list[socks]
-		var/mutable_appearance/socks_overlay = sock_accessory?.make_appearance(null, physique, active_bodyshapes)
+		var/mutable_appearance/socks_overlay = sock_accessory?.make_appearance(socks_color, physique, active_bodyshapes)
 		if(socks_overlay)
 			standing += socks_overlay
 

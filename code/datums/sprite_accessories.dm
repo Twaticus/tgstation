@@ -1781,6 +1781,7 @@ GLOBAL_LIST_EMPTY(blended_hair_icons_cache)
 /datum/sprite_accessory/clothing/socks
 	icon = 'icons/mob/clothing/underwear.dmi'
 	em_block = TRUE
+	gender = NEUTER
 
 /datum/sprite_accessory/clothing/socks/nude
 	name = "Nude"
@@ -1794,158 +1795,150 @@ GLOBAL_LIST_EMPTY(blended_hair_icons_cache)
 /datum/sprite_accessory/clothing/socks/ace_knee
 	name = "Knee-high (Ace)"
 	icon_state = "ace_knee"
+	use_static = TRUE
 
 /datum/sprite_accessory/clothing/socks/bee_knee
 	name = "Knee-high (Bee)"
 	icon_state = "bee_knee"
-
-/datum/sprite_accessory/clothing/socks/black_knee
-	name = "Knee-high (Black)"
-	icon_state = "black_knee"
+	use_static = TRUE
 
 /datum/sprite_accessory/clothing/socks/commie_knee
 	name = "Knee-High (Commie)"
 	icon_state = "commie_knee"
+	use_static = TRUE
 
 /datum/sprite_accessory/clothing/socks/usa_knee
 	name = "Knee-High (Freedom)"
-	icon_state = "assblastusa_knee"
+	icon_state = "stripe_knee"
+	greyscale_config = /datum/greyscale_config/socks
+	greyscale_colors = "#E0E0E0#CC0000#0018A0"
+	use_static = TRUE
 
 /datum/sprite_accessory/clothing/socks/rainbow_knee
 	name = "Knee-high (Rainbow)"
 	icon_state = "rainbow_knee"
+	use_static = TRUE
 
 /datum/sprite_accessory/clothing/socks/striped_knee
 	name = "Knee-high (Striped)"
-	icon_state = "striped_knee"
+	icon_state = "stripe_knee"
+	greyscale_config = /datum/greyscale_config/socks
+	greyscale_colors = "#E0E0E0#515151#515151"
 
-/datum/sprite_accessory/clothing/socks/thin_knee
-	name = "Knee-high (Thin)"
-	icon_state = "thin_knee"
+/datum/sprite_accessory/clothing/socks/sheer_knee
+	name = "Knee-high (Sheer)"
+	icon_state = "sheer_knee"
+	greyscale_config = /datum/greyscale_config/socks
+	greyscale_colors = "#161616"
 
 /datum/sprite_accessory/clothing/socks/trans_knee
 	name = "Knee-high (Trans)"
 	icon_state = "trans_knee"
+	use_static = TRUE
 
 /datum/sprite_accessory/clothing/socks/uk_knee
 	name = "Knee-High (UK)"
 	icon_state = "uk_knee"
+	use_static = TRUE
 
-/datum/sprite_accessory/clothing/socks/white_knee
-	name = "Knee-high (White)"
-	icon_state = "white_knee"
+/datum/sprite_accessory/clothing/socks/socks_knee
+	name = "Knee-high Socks"
+	icon_state = "socks_knee"
+	greyscale_config = /datum/greyscale_config/socks
+	greyscale_colors = "#E3E3E3"
 
 /datum/sprite_accessory/clothing/socks/fishnet_knee
 	name = "Knee-high (Fishnet)"
 	icon_state = "fishnet_knee"
+	use_static = TRUE
 
-/datum/sprite_accessory/clothing/socks/black_norm
-	name = "Normal (Black)"
-	icon_state = "black_norm"
+/datum/sprite_accessory/clothing/socks/socks_crew
+	name = "Crew Socks"
+	icon_state = "socks_crew"
+	greyscale_config = /datum/greyscale_config/socks
+	greyscale_colors = "#E3E3E3"
 
-/datum/sprite_accessory/clothing/socks/white_norm
-	name = "Normal (White)"
-	icon_state = "white_norm"
+/datum/sprite_accessory/clothing/socks/sheer_pantyhoes
+	name = "Pantyhose (Sheer)"
+	icon_state = "sheer_pantyhoes"
+	greyscale_config = /datum/greyscale_config/socks
+	greyscale_colors = "#161616"
 
-/datum/sprite_accessory/clothing/socks/pantyhose
-	name = "Pantyhose"
-	icon_state = "pantyhose"
+/datum/sprite_accessory/clothing/socks/socks_ankle
+	name = "Ankle Socks"
+	icon_state = "socks_ankle"
+	greyscale_config = /datum/greyscale_config/socks
+	greyscale_colors = "#E3E3E3"
 
-/datum/sprite_accessory/clothing/socks/black_short
-	name = "Short (Black)"
-	icon_state = "black_short"
-
-/datum/sprite_accessory/clothing/socks/white_short
-	name = "Short (White)"
-	icon_state = "white_short"
-
-/datum/sprite_accessory/clothing/socks/stockings_blue
-	name = "Stockings (Blue)"
-	icon_state = "stockings_blue"
-
-/datum/sprite_accessory/clothing/socks/stockings_cyan
-	name = "Stockings (Cyan)"
-	icon_state = "stockings_cyan"
-
-/datum/sprite_accessory/clothing/socks/stockings_dpink
-	name = "Stockings (Dark Pink)"
-	icon_state = "stockings_dpink"
-
-/datum/sprite_accessory/clothing/socks/stockings_green
-	name = "Stockings (Green)"
-	icon_state = "stockings_green"
-
-/datum/sprite_accessory/clothing/socks/stockings_orange
-	name = "Stockings (Orange)"
-	icon_state = "stockings_orange"
-
-/datum/sprite_accessory/clothing/socks/stockings_programmer
-	name = "Stockings (Programmer)"
-	icon_state = "stockings_lpink"
-
-/datum/sprite_accessory/clothing/socks/stockings_purple
-	name = "Stockings (Purple)"
-	icon_state = "stockings_purple"
-
-/datum/sprite_accessory/clothing/socks/stockings_yellow
-	name = "Stockings (Yellow)"
-	icon_state = "stockings_yellow"
-
-/datum/sprite_accessory/clothing/socks/stockings_fishnet
+/datum/sprite_accessory/clothing/socks/fishnet_pantyhoes
 	name = "Stockings (Fishnet)"
-	icon_state = "fishnet_full"
+	icon_state = "fishnet_pantyhoes"
 
 /datum/sprite_accessory/clothing/socks/ace_thigh
 	name = "Thigh-high (Ace)"
 	icon_state = "ace_thigh"
+	use_static = TRUE
 
 /datum/sprite_accessory/clothing/socks/bee_thigh
 	name = "Thigh-high (Bee)"
 	icon_state = "bee_thigh"
-
-/datum/sprite_accessory/clothing/socks/black_thigh
-	name = "Thigh-high (Black)"
-	icon_state = "black_thigh"
+	use_static = TRUE
 
 /datum/sprite_accessory/clothing/socks/commie_thigh
 	name = "Thigh-high (Commie)"
 	icon_state = "commie_thigh"
+	use_static = TRUE
 
 /datum/sprite_accessory/clothing/socks/usa_thigh
 	name = "Thigh-high (Freedom)"
-	icon_state = "assblastusa_thigh"
+	icon_state = "stripe_thigh"
+	greyscale_config = /datum/greyscale_config/socks
+	greyscale_colors = "#E0E0E0#CC0000#0018A0"
+	use_static = TRUE
 
 /datum/sprite_accessory/clothing/socks/rainbow_thigh
 	name = "Thigh-high (Rainbow)"
 	icon_state = "rainbow_thigh"
+	use_static = TRUE
 
 /datum/sprite_accessory/clothing/socks/striped_thigh
 	name = "Thigh-high (Striped)"
-	icon_state = "striped_thigh"
+	icon_state = "stripe_thigh"
+	greyscale_config = /datum/greyscale_config/socks
+	greyscale_colors = "#E0E0E0#515151#515151"
 
-/datum/sprite_accessory/clothing/socks/thin_thigh
-	name = "Thigh-high (Thin)"
-	icon_state = "thin_thigh"
+/datum/sprite_accessory/clothing/socks/sheer_thigh
+	name = "Thigh-high (Sheer)"
+	icon_state = "sheer_thigh"
+	greyscale_config = /datum/greyscale_config/socks
+	greyscale_colors = "#161616"
 
 /datum/sprite_accessory/clothing/socks/trans_thigh
 	name = "Thigh-high (Trans)"
 	icon_state = "trans_thigh"
+	use_static = TRUE
 
 /datum/sprite_accessory/clothing/socks/uk_thigh
 	name = "Thigh-high (UK)"
 	icon_state = "uk_thigh"
+	use_static = TRUE
 
-/datum/sprite_accessory/clothing/socks/white_thigh
-	name = "Thigh-high (White)"
-	icon_state = "white_thigh"
+/datum/sprite_accessory/clothing/socks/socks_thigh
+	name = "Thigh-high Socks"
+	icon_state = "socks_thigh"
+	greyscale_config = /datum/greyscale_config/socks
+	greyscale_colors = "#E3E3E3"
 
 /datum/sprite_accessory/clothing/socks/fishnet_thigh
 	name = "Thigh-high (Fishnet)"
 	icon_state = "fishnet_thigh"
+	use_static = TRUE
 
 /datum/sprite_accessory/clothing/socks/thocks
 	name = "Thocks"
 	icon_state = "thocks"
+	greyscale_config = /datum/greyscale_config/socks
+	greyscale_colors = "#515151"
 
 //////////.//////////////////
 // MutantParts Definitions //

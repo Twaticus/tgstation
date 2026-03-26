@@ -4087,6 +4087,7 @@
 #include "code\modules\client\preferences\security_department.dm"
 #include "code\modules\client\preferences\silicon_gender.dm"
 #include "code\modules\client\preferences\skin_tone.dm"
+#include "code\modules\client\preferences\socks_color.dm"
 #include "code\modules\client\preferences\sounds.dm"
 #include "code\modules\client\preferences\species.dm"
 #include "code\modules\client\preferences\statpanel.dm"
